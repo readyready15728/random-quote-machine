@@ -2,23 +2,21 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+class RandomQuoteMachine extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {quoteText: 'Click "Get Quote" to get a fresh random quote'};
+  }
+  
+  render() {
+    return <p>{this.state.quoteText}</p>;
+  }
+}
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <RandomQuoteMachine/>
     </div>
   );
 }
