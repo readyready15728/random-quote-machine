@@ -15,7 +15,7 @@ class RandomQuoteMachine extends React.Component {
     };
 
     this.handleNewQuote = this.handleNewQuote.bind(this);
-    // this.handleTweetQuote = this.handleTweetQuote.bind(this);
+    this.handleTweetQuote = this.handleTweetQuote.bind(this);
   }
 
   handleNewQuote() {
@@ -25,6 +25,10 @@ class RandomQuoteMachine extends React.Component {
       .catch((error) => this.setState({text: error.message, author: ''}));
   }
   
+  handleTweetQuote() {
+    window.open('https://twitter.com/intent/tweet?hashtags=quotes&text=' + encodeURIComponent('"' + this.state.text + '" —' + this.state.author), '_blank');
+  }
+
   render() {
     return <Container id="quote-box" className="text-center" fluid={true}>
       <Row>
@@ -42,7 +46,7 @@ class RandomQuoteMachine extends React.Component {
           <Button id="new-quote" block={true} onClick={this.handleNewQuote}>New Quote</Button>
         </Col>
         <Col xs="6">
-          <Button id="tweet-quote" block={true}>Tweet Quote</Button>
+          <Button id="tweet-quote" block={true} onClick={this.handleTweetQuote}>Tweet Quote</Button>
         </Col>
       </Row>
     </Container>;
