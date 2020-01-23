@@ -26,7 +26,7 @@ class RandomQuoteMachine extends React.Component {
   }
   
   render() {
-    return <Container id="quote-box" className="text-center">
+    return <Container id="quote-box" className="text-center" fluid={true}>
       <Row>
         <Col xs="12">
           <p id="text">{this.state.text}</p>
