@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1b05096.chunk.css",
-    "main.js": "/static/js/main.c8e04eea.chunk.js",
-    "main.js.map": "/static/js/main.c8e04eea.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5298a8c8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5298a8c8.js.map",
-    "static/css/2.64a99b10.chunk.css": "/static/css/2.64a99b10.chunk.css",
-    "static/js/2.31b99927.chunk.js": "/static/js/2.31b99927.chunk.js",
-    "static/js/2.31b99927.chunk.js.map": "/static/js/2.31b99927.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.ad6bdf9777a524cc9be3796c85835d82.js": "/precache-manifest.ad6bdf9777a524cc9be3796c85835d82.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.64a99b10.chunk.css.map": "/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.d1b05096.chunk.css.map": "/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.31b99927.chunk.js.LICENSE": "/static/js/2.31b99927.chunk.js.LICENSE",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/random-quote-machine/static/css/main.d1b05096.chunk.css",
+    "main.js": "/random-quote-machine/static/js/main.4965f2e6.chunk.js",
+    "main.js.map": "/random-quote-machine/static/js/main.4965f2e6.chunk.js.map",
+    "runtime-main.js": "/random-quote-machine/static/js/runtime-main.19882ef4.js",
+    "runtime-main.js.map": "/random-quote-machine/static/js/runtime-main.19882ef4.js.map",
+    "static/css/2.64a99b10.chunk.css": "/random-quote-machine/static/css/2.64a99b10.chunk.css",
+    "static/js/2.31b99927.chunk.js": "/random-quote-machine/static/js/2.31b99927.chunk.js",
+    "static/js/2.31b99927.chunk.js.map": "/random-quote-machine/static/js/2.31b99927.chunk.js.map",
+    "index.html": "/random-quote-machine/index.html",
+    "precache-manifest.27776a82c199ca2a76002305542db7e9.js": "/random-quote-machine/precache-manifest.27776a82c199ca2a76002305542db7e9.js",
+    "service-worker.js": "/random-quote-machine/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/random-quote-machine/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.d1b05096.chunk.css.map": "/random-quote-machine/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.31b99927.chunk.js.LICENSE": "/random-quote-machine/static/js/2.31b99927.chunk.js.LICENSE",
+    "static/media/logo.svg": "/random-quote-machine/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5298a8c8.js",
+    "static/js/runtime-main.19882ef4.js",
     "static/css/2.64a99b10.chunk.css",
     "static/js/2.31b99927.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.c8e04eea.chunk.js"
+    "static/js/main.4965f2e6.chunk.js"
   ]
 }
